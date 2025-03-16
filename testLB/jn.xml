@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<items>
+    <item>
+        <name>Яблоко</name>
+        <price>100</price>
+    </item>
+    <item>
+        <name>Банан</name>
+        <price>50</price>
+    </item>
+    <item>
+        <name>Апельсин</name>
+        <price>80</price>
+    </item>
+</items>
