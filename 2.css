@@ -1,0 +1,31 @@
+table {
+    width: 70%;
+    background-color: rgb(250, 208, 208);
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+    border: 2px solid white;
+}
+
+td {
+    background-color: rgb(250, 208, 208);
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: min(4vw, 4vh, 20px); /* Автоматическое масштабирование */
+    line-height: normal; /* Оптимальная высота строки */
+    text-wrap: balance;
+}
+
+td, th {
+    transition: all 0.3s ease; /* Плавное изменение */
+}
+td:hover, th:hover {
+    background-color: lightskyblue; /* Бледный тиффани (на 40% светлее) */
+    cursor: pointer;
+    font-size: 1.75em; /* Увеличение шрифта */
+}
