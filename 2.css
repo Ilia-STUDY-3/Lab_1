@@ -16,16 +16,13 @@ td {
     border: 2px solid black;
     padding: 10px;
     text-align: center;
-    font-size: min(4vw, 4vh, 20px); /* Автоматическое масштабирование */
-    line-height: normal; /* Оптимальная высота строки */
-    text-wrap: balance;
 }
 
 td, th {
-    transition: all 0.3s ease; /* Плавное изменение */
+    transition: all 0.3s ease; 
 }
 td:hover, th:hover {
-    background-color: lightskyblue; /* Бледный тиффани (на 40% светлее) */
+    background-color: lightskyblue;
     cursor: pointer;
-    font-size: 1.75em; /* Увеличение шрифта */
+    font-size: 1.75em; 
 }
